@@ -21,7 +21,7 @@ public class EchoTest {
 // Проверки
                 .then()
                 .statusCode(200)
-                .body("data", equalTo("ffqqqq"))
+                .body("data", equalTo("ff"))
         ;
     }
 }
